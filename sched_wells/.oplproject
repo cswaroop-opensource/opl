@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Well Mining, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="data" name="sched_wells.dat">
+			</ref>
+			<ref type="model" name="sched_wells.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

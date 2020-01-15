@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Network flow problem with a single commodity, Linear Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="data" name="netflow.dat">
+			</ref>
+			<ref type="model" name="netflow.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

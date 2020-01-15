@@ -1,0 +1,129 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+Cities = { GARY CLEV PITT FRA  DET  LAN  WIN  STL  FRE  LAF };
+Products   = { bands coils plate };
+Capacity    = 625;
+
+Routes = {
+   <bands <GARY FRA> >,
+   <bands <GARY DET> >,
+   <bands <GARY LAN> >,
+   <bands <GARY WIN> >,
+   <bands <GARY STL> >,
+   <bands <GARY FRE> >,
+   <bands <GARY LAF> >, 
+   <bands <CLEV FRA> >,
+   <bands <CLEV DET> >,
+   <bands <CLEV LAN> >,
+   <bands <CLEV WIN> >,
+   <bands <CLEV STL> >,
+   <bands <CLEV FRE> >,
+   <bands <CLEV LAF> >,
+   <bands <PITT FRA> >,
+   <bands <PITT DET> >,
+   <bands <PITT LAN> >,
+   <bands <PITT WIN> >,
+   <bands <PITT STL> >,
+   <bands <PITT FRE> >,
+   <bands <PITT LAF> >,
+
+   <coils <GARY FRA> >,
+   <coils <GARY DET> >,
+   <coils <GARY LAN> >,
+   <coils <GARY WIN> >,
+   <coils <GARY STL> >,
+   <coils <GARY FRE> >,
+   <coils <GARY LAF> >, 
+   <coils <CLEV FRA> >,
+   <coils <CLEV DET> >,
+   <coils <CLEV LAN> >,
+   <coils <CLEV WIN> >,
+   <coils <CLEV STL> >,
+   <coils <CLEV FRE> >,
+   <coils <CLEV LAF> >,
+   <coils <PITT FRA> >,
+   <coils <PITT DET> >,
+   <coils <PITT LAN> >,
+   <coils <PITT WIN> >,
+   <coils <PITT STL> >,
+   <coils <PITT FRE> >,
+   <coils <PITT LAF> >,
+
+   <plate <GARY FRA> >,
+   <plate <GARY DET> >,
+   <plate <GARY LAN> >,
+   <plate <GARY WIN> >,
+   <plate <GARY STL> >,
+   <plate <GARY FRE> >,
+   <plate <GARY LAF> >, 
+   <plate <CLEV FRA> >,
+   <plate <CLEV DET> >,
+   <plate <CLEV LAN> >,
+   <plate <CLEV WIN> >,
+   <plate <CLEV STL> >,
+   <plate <CLEV FRE> >,
+   <plate <CLEV LAF> >,
+   <plate <PITT FRA> >,
+   <plate <PITT DET> >,
+   <plate <PITT LAN> >,
+   <plate <PITT WIN> >,
+   <plate <PITT STL> >,
+   <plate <PITT FRE> >,
+   <plate <PITT LAF> >
+};
+
+Supply = #[
+      <bands GARY>: 400
+      <coils GARY>: 800
+      <plate GARY>: 200
+      <bands CLEV>: 700
+      <coils CLEV>: 1600
+      <plate CLEV>: 300
+      <bands PITT>: 800
+      <coils PITT>: 1800
+      <plate PITT>: 300
+]#;
+
+Demand = #[
+      <bands FRA>: 300
+      <coils FRA>: 500
+      <plate FRA>: 100
+      <bands DET>: 300
+      <coils DET>: 750
+      <plate DET>: 100
+      <bands LAN>: 100
+      <coils LAN>: 400
+      <plate LAN>: 0
+      <bands WIN>: 75
+      <coils WIN>: 250
+      <plate WIN>: 50
+      <bands STL>: 650
+      <coils STL>: 950
+      <plate STL>: 200
+      <bands FRE>: 225
+      <coils FRE>: 850
+      <plate FRE>: 100
+      <bands LAF>: 250
+      <coils LAF>: 500
+      <plate LAF>: 250
+]#;
+
+Cost = [30,10, 8,10,11,71, 6,22, 7,10, 7,21,82,13,19,11,12,10,25,83,15,
+ 39,14,11,14,16,82, 8,27, 9,12, 9,26,95,17,24,14,17,13,28,99,20,
+ 41,15,12,16,17,86, 8,29, 9,13, 9,28,99,18,26,14,17,13,31,104,20];
+
+
+
+
+
+
+

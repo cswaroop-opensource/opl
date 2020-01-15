@@ -1,0 +1,40 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+prepare {
+  writeln("* Note: This OPL data file is not compliant with cloud execution");
+}
+
+
+// Total number of wells.
+nbWells = 5;
+
+// Number of wells that can work simultaneously.
+wellLimit = 3;
+
+// Number of operations in each well (= number of pay sands in each well).
+nbOperations = 6;
+
+// Number of pay sand types.
+nbSands = 3;
+
+// Duration of the workover. 
+// It depends on the type of sand that follows.
+workDuration = [ 5, 3, 2 ]; 
+
+// Connection to the data in Excel file.
+SheetConnection sheet("sched_wells.xls"); 
+
+rate        from SheetRead(sheet,"B3:D7");   // Output rate.
+composition from SheetRead(sheet,"B10:G14"); // Compositions in each well.
+depth       from SheetRead(sheet,"B17:G21"); // Depth of the pay sands in each well.
+
+

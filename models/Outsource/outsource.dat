@@ -1,0 +1,53 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+/****************************************************
+Outsourcing Example
+
+An manufacturer is selecting a set of suppliers for 
+the components needed by its products.  The different 
+suppliers offer different discounts. The model helps 
+the manufacturer choose the right suppliers for each
+component at a minimum cost.
+
+***************************************************/  
+
+
+Items = { Item1, Item2, Item3 };
+Suppliers = { Supplier1, Supplier2, Supplier3 };
+AUDsuppliers={ Supplier1, Supplier2  };
+CQDsuppliers={ Supplier3};
+NumAmts = 4;
+
+ItemDemand = [ 150, 150, 120 ];
+//itemDemand = [ 200, 150, 250 ];
+TotalSupplierCap = [ 180, 220, 240 ];
+BreakAmts = [ 0, 100, 200, 500, 1000 ] ;
+
+SetupCost=[20,30,10];
+
+CostInRanges = [ 
+            //LT100, LT150, LT200, GT200
+          [ [ .14, .13, .12 999.0]
+            [ .04, .02, .02 .01 ]
+            [ .14, .13, .12 999.0 ]
+          ]
+          [  
+            [ 2.0, 1.5, 1.0 0.5]
+            [ 2.2, 1.8, 0.9 0.4]
+            [ 1.8, 1.7, 1.6 1.5]
+          ]
+          [       
+            [ 3.0, 3.0, 1.0 0.5]
+            [ 3.0, 2.0, 1.0 0.5]
+            [ 1.0, 1.0, 1.0 0.5]
+          ]  
+         ];

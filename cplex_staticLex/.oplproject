@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Life game from Robert Bosch and Michael Trick, CP 2001</description>
+	<configs>
+		<config default="false" name="Extended" category="opl">
+			<ref name="staticlex2.mod" type="model">
+			</ref>
+		</config>
+		<config default="true" name="Standard" category="opl">
+			<ref name="staticlex1.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="Finely Grained" category="opl">
+			<ref name="staticlex3.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

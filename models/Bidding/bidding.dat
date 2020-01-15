@@ -1,0 +1,26 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+TaskSet = {
+    <b1, t1, 123, 0>
+    <b1, t2, 110, 0>
+    <b1, t3, 123, 1>
+    <b1, t5, 123, 1>
+    <b2, t2, 123, 0>
+    <b2, t3, 100, 0>
+    <b2, t4, 123, 0>
+    <b2, t5, 123, 1>
+    <b3, t1, 100, 1>
+};
+Tasks={t1,t2,t3,t4,t5};
+
+TaskPenalty= // If cost is -1 it means it must be assigned.
+{<t1 120> <t2 120> <t3 -1> <t4 120> <t5 120>};

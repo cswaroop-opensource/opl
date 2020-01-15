@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Life game from Robert Bosch and Michael Trick, CP 2001</description>
+	<configs>
+		<config category="opl" default="true" name="Config0">
+			<ref name="lifegameip.mod" type="model">
+			</ref>
+		</config>	
+		<config category="opl" default="false" name="Config1">
+			<ref name="lifegameip.mod" type="model">
+			</ref>
+			<ref name="life.ops" type="setting">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Config2">
+			<ref name="lifegameip_setting.mod" type="model">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Config3">
+			<ref name="lifegameip_main.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

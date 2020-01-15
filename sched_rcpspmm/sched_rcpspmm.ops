@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<settings>
+
+
+
+
+
+           <category name="language"/>
+
+
+
+
+
+           <category name="ide"/>
+
+
+
+
+
+           <category name="cplex">
+
+    
+
+
+        
+
+
+    
+          </category>
+
+
+
+
+
+           <category name="cp">
+
+    
+    
+
+    
+
+    
+        </category>
+
+
+
+
+
+</settings>

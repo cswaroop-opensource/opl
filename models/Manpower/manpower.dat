@@ -1,0 +1,53 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+NbYears = 3;
+
+Class = {UnSkilled, SemiSkilled, Skilled};
+
+InitialStaff  = [2000 1500 1000];
+RequiredStaff = [[1000 1400 1000]
+                 [ 500 2000 1500]
+                 [   0 2500 2000]]; 
+
+LimRecruit = [500 800 500];
+RetainRecruit = [.75 .80 .90];
+
+Retain = [[.90 .95 .95]
+          [.50 .95 .95]
+          [.50 .50 .95]];
+
+CostRetrain = [[0 400   0]
+               [0   0 500]
+               [0   0   0]];
+
+// -1 means no limit
+LimRetrain = [[ 0 200   0] 
+              [-1   0  -1]
+              [-1  -1   0]]; 
+
+OnjobRetrain = [[-1 -1 -1]
+                [-1 -1 0.25]
+                [-1 -1 -1]];
+
+CostRedundant = [200 500 500];
+
+LimOver = 150;
+CostOver = [1500 2000 3000];
+
+LimShort = 50;
+TimeShort = 0.50;
+CostShort = [500 400 400];
+ 
+LimRedundancy = 1e+20; 
+LimCost = 1e+20;
+WeightRedundancy = 1.0;
+WeightCost = 0.0;

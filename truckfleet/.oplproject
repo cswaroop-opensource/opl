@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Configure trucks to deliver orders minimizing cost and number of trips</description>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref type="model" name="truckfleet.mod">
+			</ref>
+			<ref type="data" name="truckfleet.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

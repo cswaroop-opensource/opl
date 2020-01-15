@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>A multi-period metal blending problem</description>
+	<configs>
+		<config category="opl" default="true" name="LP formulation">
+			<ref type="model" name="blending1.mod">
+			</ref>
+			<ref type="data" name="blending1.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="MIP formulation">
+			<ref type="model" name="blending2.mod">
+			</ref>
+			<ref type="data" name="blending2.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,135 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+
+Task =  {start,a1,a2,a3,a4,a5,a6,p1,p2,ue,s1,s2,s3,s4,s5,s6,
+         b1,b2,b3,b4,b5,b6,ab1,ab2,ab3,ab4,ab5,ab6,m1,m2,m3,m4,m5,m6,
+         l,t1,t2,t3,t4,t5,ua,v1,v2,k1,k2,stop};
+
+Resource = {excavator, piledriver, carpentry, concretemixer,
+            bricklaying, crane, caterpillar};
+
+duration = #[
+          start : 0,
+          a1    : 4,
+          a2    : 2,
+          a3    : 2,
+          a4    : 2,
+          a5    : 2,
+          a6    : 5,
+          p1    : 20,
+          p2    : 13,
+          ue    : 10,
+          s1    : 8,
+          s2    : 4,
+          s3    : 4,
+          s4    : 4,
+          s5    : 4,
+          s6    : 10,
+          b1    : 1,
+          b2    : 1,
+          b3    : 1,
+          b4    : 1,
+          b5    : 1,
+          b6    : 1,
+          ab1    : 1,
+          ab2    : 1,
+          ab3    : 1,
+          ab4    : 1,
+          ab5    : 1,
+          ab6    : 1,
+          m1    : 16,
+          m2    : 8,
+          m3    : 8,
+          m4    : 8,
+          m5    : 8,
+          m6    : 20,
+          l    : 2,
+          t1    : 12,
+          t2    : 12,
+          t3    : 12,
+          t4    : 12,
+          t5    : 12,
+          ua    : 10,
+          v1    : 15,
+          v2    : 10,
+          k1    : 0,
+          k2    : 0,
+          stop    : 0
+]#;
+     
+max_nf  = {
+     <start,l,30>,
+     <a1,s1,3>,
+     <a2,s2,3>,
+     <a5,s5,3>,
+     <a6,s6,3>,
+     <p1,s3,3>,
+     <p2,s4,3>
+};
+
+min_sf = {
+     <ua,m1,2>,
+     <ua,m2,2>,
+     <ua,m3,2>,
+     <ua,m4,2>,
+     <ua,m5,2>,
+     <ua,m6,2>
+};
+
+max_ef = {
+     <s1,b1,4>,
+     <s2,b2,4>,
+     <s3,b3,4>,
+     <s4,b4,4>,
+     <s5,b5,4>,
+     <s6,b6,4>
+};
+
+min_nf = {
+     <start,l,30>
+};
+
+min_af = { 
+     <ue,s1,6>,
+     <ue,s2,6>,
+     <ue,s3,6>,
+     <ue,s4,6>,
+     <ue,s5,6>,
+     <ue,s6,6>
+};
+
+res = #[
+     crane   : {t1,t2,t3,t4,t5},
+     bricklaying : {m1,m2,m3,m4,m5,m6},
+     carpentry  : {s1,s2,s3,s4,s5,s6},
+     excavator : {a1,a2,a3,a4,a5,a6},
+     piledriver  : {p1,p2},
+     concretemixer  : {b1,b2,b3,b4,b5,b6},
+     caterpillar  : {v1,v2}
+]#;
+ 
+precedences = {
+     <start,a1>,<start,a2>,<start,a3>,<start,a4>,<start,a5>,
+     <start,a6>,<start,ue>,<a1,s1>,<a2,s2>,<a5,s5>,
+     <a6,s6>,<a3,p1>,<a4,p2>,<p1,s3>,<p2,s4>,
+     <p1,k1>,<p2,k1>,<s1,b1>,<s2,b2>,
+     <s3,b3>,<s4,b4>,<s5,b5>,<s6,b6>,<b1,ab1>,
+     <b2,ab2>,<b3,ab3>,<b4,ab4>,<b5,ab5>,<b6,ab6>,
+     <ab1,m1>,<ab2,m2>,<ab3,m3>,<ab4,m4>,<ab5,m5>,
+     <ab6,m6>,<m1,t1>,<m2,t1>,<m2,t2>,<m3,t2>,
+     <m3,t3>,<m4,t3>,<m4,t4>,<m5,t4>,<m5,t5>,
+     <m6,t5>,<m1,k2>,<m2,k2>,<m3,k2>,<m4,k2>,
+     <m5,k2>,<m6,k2>,<l,t1>,<l,t2>,<l,t3>,
+     <l,t4>,<l,t5>,<t1,v1>,<t5,v2>,<t2,stop>,
+     <t3,stop>,<t4,stop>,<v1,stop>,<v2,stop>,<ua,stop>,
+     <k1,stop>,<k2,stop>
+ };        

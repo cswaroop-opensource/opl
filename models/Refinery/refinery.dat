@@ -1,0 +1,61 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+Crude = {CRA, CRB};
+Naptha = {LN, MN, HN};
+Resid = {R};
+Oil = {LO, HO};
+ReformProd = {RG};
+CrackProd = {CG, CO};
+Petrol = {PMF, RMF}; 
+Fuel = {JF, FO};
+Lube = {LBO};
+
+DistillNaptha = [[0.10 0.20 0.20]
+                 [0.15 0.25 0.18]];
+DistillOil = [[0.12 0.20]
+              [0.08 0.19]];
+DistillResid = [[0.13]
+                [0.12]];
+
+ReformProcess = [[0.60]
+                 [0.52]
+                 [0.45]];
+
+CrackProcess = [[0.28 0.68]
+                [0.20 0.75]];
+ResidProcess = [[0.50]];
+
+OctaneNaptha = [90 80 70];
+OctaneReform = [115];
+OctaneCG = 105;
+ReqOctane = [94 84];
+ReqRatioPetrol = 0.40;
+ 
+ReqOilFO = [.55 .17];
+ReqCrkFO = 0.22;
+ReqResidFO = [0.06];
+
+
+VaporOil = [1.0 0.6];
+VaporResid = [0.05];
+VaporCrkOil = 1.5;
+LimVaporJF = 1.0;
+
+LimCrude = [20000 30000];
+LimDistill = 45000;
+LimReform = 10000;
+LimCrack = 8000;
+LoLube = [500];
+UpLube = [1000];
+ProfitPetrol = [7 6];
+ProfitFuel   = [4 3.5];
+ProfitLube   = [1.5];

@@ -1,0 +1,472 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+Cities = { GARY CLEV PITT FRA  DET  LAN  WIN  STL  FRE  LAF };
+Products   = { bands coils plate };
+Capacity    = 625;
+
+Supply = #[
+    bands: #[
+       GARY: 400
+               CLEV: 700
+               PITT: 800
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      coils: #[
+       GARY: 800
+               CLEV: 1600
+               PITT: 1800
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      plate: #[
+       GARY: 200
+               CLEV: 300
+               PITT: 300
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+]#;
+
+
+Demand = #[
+    bands: #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 300
+               DET: 300
+               LAN: 100
+               WIN: 75
+               STL: 650
+               FRE: 225
+               LAF: 250
+             ]#
+      coils: #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 500
+               DET: 750
+               LAN: 400
+               WIN: 250
+               STL: 950
+               FRE: 850
+               LAF: 500
+             ]#
+      plate: #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 100
+               DET: 100
+               LAN: 0
+               WIN: 50
+               STL: 200
+               FRE: 100
+               LAF: 250
+             ]#
+]#;
+
+Cost = #[
+   bands: #[
+    GARY:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 30
+               DET: 10
+               LAN: 8
+               WIN: 10
+               STL: 11
+               FRE: 71
+               LAF: 6
+             ]#
+    CLEV:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 22
+               DET: 7
+               LAN: 10
+               WIN: 7
+               STL: 21
+               FRE: 82
+               LAF: 13
+             ]#
+    PITT:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 19
+               DET: 11
+               LAN: 12
+               WIN: 10
+               STL: 25
+               FRE: 83
+               LAF: 15
+             ]#
+    FRA:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    DET:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    LAN:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    WIN:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    STL:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      FRE:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      LAF:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      ]#
+
+   coils: #[
+    GARY:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 39
+               DET: 14
+               LAN: 11
+               WIN: 14
+               STL: 16
+               FRE: 82
+               LAF: 8
+             ]#
+    CLEV:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 27
+               DET: 9
+               LAN: 12
+               WIN: 9
+               STL: 26
+               FRE: 95
+               LAF: 17
+             ]#
+    PITT:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 24
+               DET: 14
+               LAN: 17
+               WIN: 13
+               STL: 28
+               FRE: 99
+               LAF: 20
+             ]#
+    FRA:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    DET:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    LAN:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    WIN:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    STL:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      FRE:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      LAF:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      ]#
+
+   plate: #[
+    GARY:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 41
+               DET: 15
+               LAN: 12
+               WIN: 16
+               STL: 17
+               FRE: 86
+               LAF: 8
+             ]#
+    CLEV:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 29
+               DET: 9
+               LAN: 13
+               WIN: 9
+               STL: 28
+               FRE: 99
+               LAF: 18
+             ]#
+    PITT:  #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 26
+               DET: 14
+               LAN: 17
+               WIN: 13
+               STL: 31
+               FRE: 104
+               LAF: 20
+             ]#
+    FRA:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    DET:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    LAN:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    WIN:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+    STL:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      FRE:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      LAF:   #[
+       GARY: 0
+               CLEV: 0
+               PITT: 0
+               FRA: 0
+               DET: 0
+               LAN: 0
+               WIN: 0
+               STL: 0
+               FRE: 0
+               LAF: 0
+             ]#
+      ]#
+
+]#;
+
+
+
+
+
+
+

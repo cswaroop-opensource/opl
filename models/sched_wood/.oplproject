@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Wood Cutting, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="data" name="sched_wood.dat">
+			</ref>
+			<ref type="model" name="sched_wood.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

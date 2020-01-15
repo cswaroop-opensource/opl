@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+  <version>1.0</version>
+  <description>An oil blending problem, MILP</description>
+  <configs>
+    <config category="opl" default="true" name="Default Configuration">
+      <ref type="data" name="oil.dat">
+      </ref>
+      <ref type="model" name="oil.mod">
+      </ref>
+    </config>
+    <config category="opl" default="false" name="Data from spreadsheet">
+      <ref type="model" name="oil.mod">
+      </ref>
+      <ref type="data" name="oilSheet.dat">
+      </ref>
+    </config>
+  </configs>
+  
+</project>

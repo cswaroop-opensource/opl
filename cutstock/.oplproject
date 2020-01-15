@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Master model for cutting stock problem, Integer Programming</description>
+	<configs>
+		<config category="opl" default="false" name="Fixed number of patterns">
+			<ref type="data" name="cutstock.dat">
+			</ref>
+			<ref type="model" name="cutstock.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Alternate formulation of fixed number of patterns">
+			<ref type="data" name="cutstock_change.dat">
+			</ref>
+			<ref type="model" name="cutstock_change.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Full integer problem using column generation">
+			<ref type="data" name="cutstock.dat">
+			</ref>
+			<ref type="model" name="cutstock_int_main.mod">
+			</ref>
+		</config>
+		<config category="opl" default="true" name="Full relaxed problem using column generation">
+			<ref type="data" name="cutstock.dat">
+			</ref>
+			<ref type="model" name="cutstock_main.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

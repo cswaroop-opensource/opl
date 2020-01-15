@@ -1,0 +1,55 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+cap = #[
+	<	Atlanta,	Chicago	>:	500,
+	<	Atlanta,	Dallas	>:	400,
+	<	Atlanta,	Denver	>:	1100,
+	<	Atlanta,	Newark	>:	1000,
+	<	Atlanta,	Pasadena	>:	1200,
+	<	Atlanta,	Portland	>:	1200,
+	<	Chicago,	Atlanta	>:	600,
+	<	Chicago,	Dallas	>:	1200,
+	<	Chicago,	Denver	>:	800,
+	<	Chicago,	Newark	>:	1300,
+	<	Chicago,	Pasadena	>:	100,
+	<	Chicago,	Portland	>:	600,
+	<	Dallas,	Atlanta	>:	700,
+	<	Dallas,	Chicago	>:	800,
+	<	Dallas,	Denver	>:	900,
+	<	Dallas,	Newark	>:	1200,
+	<	Dallas,	Pasadena	>:	1100,
+	<	Dallas,	Portland	>:	500,
+	<	Denver,	Atlanta	>:	800,
+	<	Denver,	Chicago	>:	1300,
+	<	Denver,	Dallas	>:	1300,
+	<	Denver,	Newark	>:	500,
+	<	Denver,	Pasadena	>:	1200,
+	<	Denver,	Portland	>:	1400,
+	<	Newark,	Atlanta	>:	800,
+	<	Newark,	Chicago	>:	1000,
+	<	Newark,	Dallas	>:	1200,
+	<	Newark,	Denver	>:	1200,
+	<	Newark,	Pasadena	>:	500,
+	<	Newark,	Portland	>:	700,
+	<	Pasadena,	Atlanta	>:	400,
+	<	Pasadena,	Chicago	>:	800,
+	<	Pasadena,	Dallas	>:	900,
+	<	Pasadena,	Denver	>:	1400,
+	<	Pasadena,	Newark	>:	700,
+	<	Pasadena,	Portland	>:	700,
+	<	Portland,	Atlanta	>:	1300,
+	<	Portland,	Chicago	>:	500,
+	<	Portland,	Dallas	>:	1000,
+	<	Portland,	Denver	>:	1000,
+	<	Portland,	Newark	>:	700,
+	<	Portland,	Pasadena	>:	900
+]#;

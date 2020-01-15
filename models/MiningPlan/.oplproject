@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>Mine Planning, Integer Programming</description>  
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="miningPlan.dat" type="data"/>
+      <ref name="miningPlan.mod" type="model"/>
+    </config>
+  </configs>
+</project>

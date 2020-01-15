@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Scheduling of the ACC basketball conference, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Main">
+			<ref type="model" name="basketballscheduling.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Patterns generation">
+			<ref type="data" name="pattern.dat">
+			</ref>
+			<ref type="model" name="pattern.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Pattern set">
+			<ref type="data" name="patset.dat">
+			</ref>
+			<ref type="model" name="patset.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Acc">
+			<ref type="data" name="acc.dat">
+			</ref>
+			<ref type="model" name="acc.mod">
+			</ref>
+			<ref type="data" name="patset.dat">
+			</ref>
+			<ref type="data" name="pattern.dat">
+			</ref>
+			<ref type="data" name="weekday.dat">
+			</ref>
+			<ref type="data" name="weekend.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

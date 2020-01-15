@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>A simple inventory problem, Integer Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="data" name="sailco.dat">
+			</ref>
+			<ref type="model" name="sailco.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Piecewise linear cost">
+			<ref type="data" name="sailcopw.dat">
+			</ref>
+			<ref type="model" name="sailcopw.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Generalized PWL model - 2 pieces">
+			<ref type="model" name="sailcopwg.mod">
+			</ref>
+			<ref type="data" name="sailcopwg1.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Generalized PWL model - 3 pieces">
+			<ref type="model" name="sailcopwg.mod">
+			</ref>
+			<ref type="data" name="sailcopwg2.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Generalized PWL model - 4 pieces">
+			<ref type="model" name="sailcopwg.mod">
+			</ref>
+			<ref type="data" name="sailcopwg3.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

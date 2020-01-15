@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>Used in the interface example to illustrate custom datasource</description>  
+  <configs>
+    <config name="Configuration1" default="true" category="opl">
+      <ref name="customDataSource.dat" type="data"/>
+      <ref name="customDataSource.mod" type="model"/>
+    </config>
+  </configs>
+</project>

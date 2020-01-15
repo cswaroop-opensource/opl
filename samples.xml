@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<samples>
+   <sample>
+      <name>%opl.samples.name.batch</name>
+      <description>%opl.samples.description.batch</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_blending_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.energy"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.batch"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>batch</project>
+      </projects>
+   </sample>
+	<sample>
+		<name>%opl.samples.name.examplessuite</name>
+		<description>%opl.samples.description.examplessuite</description>
+		<helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_solving_several_examples</helpContextId>
+		<attributes>
+			<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+			<attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+		</attributes>
+		<projects>
+			<project>examples_suite</project>
+			<project>blending</project>
+			<project>cutstock</project>
+			<project>timetabling</project>
+			<project>sched_bridge</project>
+		</projects>
+	</sample>	
+   <sample>
+      <name>%opl.samples.name.truckfleet</name>
+      <description>%opl.samples.description.truckfleet</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_multicriteria_objective</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      </attributes>
+      <projects>
+         <project>truckfleet</project>
+      </projects>
+   </sample>
+	
+   <sample>
+      <name>%opl.samples.name.sched_conflict</name>
+      <description>%opl.samples.description.sched_conflict</description>
+      <helpContextId>ilog.odms.ide.help.opl_samples_cp</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>sched_conflict</project>
+      </projects>
+   </sample>
+
+   <sample>
+      <name>%opl.samples.name.lagrangianrelaxation</name>
+      <description>%opl.samples.description.lagrangianrelaxation</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_misc_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.milp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      </attributes>
+      <projects>
+         <project>LagrangianRelaxation</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.ppp</name>
+      <description>%opl.samples.description.ppp</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>PPP</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.blending</name>
+      <description>%opl.samples.description.blending</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_blending_problems</helpContextId>
+      <attributes>
+	      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.milp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+      </attributes>
+      <projects>
+         <project>blending</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.color</name>
+      <description>%opl.samples.description.color</description>
+      <helpContextId>ilog.odms.ide.help.opl_samples_cp</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mathematicalgames"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>color</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.config</name>
+      <description>%opl.samples.description.config</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>config</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.conflictiterator</name>
+      <description>%opl.samples.description.conflictiterator</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_misc_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>conflictIterator</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.convert_example</name>
+      <description>%opl.samples.description.convert_example</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_misc_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>convert_example</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.covering</name>
+      <description>%opl.samples.description.covering</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_covering_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>covering</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.customdatasource</name>
+      <description>%opl.samples.description.customdatasource</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_wtf_interface_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>customDataSource</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.cutstock</name>
+      <description>%opl.samples.description.cutstock</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_cutting_stock_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      </attributes>
+      <projects>
+         <project>cutstock</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.euler</name>
+      <description>%opl.samples.description.euler</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_syntax_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mathematicalgames"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>euler</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.fixed</name>
+      <description>%opl.samples.description.fixed</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_fixed_charge_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>fixed</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.floatexpr</name>
+      <description>%opl.samples.description.floatexpr</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_syntax_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>floatexpr</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.foodmanufact</name>
+      <description>%opl.samples.description.foodmanufact</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_blending_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>foodmanufact</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.gas</name>
+      <description>%opl.samples.description.gas</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_product_mix_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.energy"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>gas</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.iterators</name>
+      <description>%opl.samples.description.iterators</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_wtf_interface_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>iterators</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.knapsack</name>
+      <description>%opl.samples.description.knapsack</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_knapsack_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>knapsack</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.lifegameip</name>
+      <description>%opl.samples.description.lifegameip</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_quadratic_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mathematicalgames"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>lifegameip</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.miqpex1</name>
+      <description>%opl.samples.description.miqpex1</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_quadratic_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.miqp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>miqpex1</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.benders</name>
+      <description>%opl.samples.description.benders</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_syntax_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>benders</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.mulprod</name>
+      <description>%opl.samples.description.mulprod</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_production_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+	 <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		</attributes>
+      <projects>
+         <project>mulprod</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.nurses</name>
+      <description>%opl.samples.description.nurses</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_relaxation_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.milp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>nurses</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.oil</name>
+      <description>%opl.samples.description.oil</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_blending_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.energy"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>oil</project>
+      </projects>
+   </sample>
+
+   <sample>
+      <name>%opl.samples.name.plant_location</name>
+      <description>%opl.samples.description.plant_location</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_syntax_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>plant_location</project>
+      </projects>
+   </sample>
+
+   <sample>
+      <name>%opl.samples.name.pmedian</name>
+      <description>%opl.samples.description.pmedian</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_wtf_cplex_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>pmedian</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.prodmilp</name>
+      <description>%opl.samples.description.prodmilp</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_fixed_charge_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.milp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>prodmilp</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.production</name>
+      <description>%opl.samples.description.production</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_production_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+	 <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>production</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.profiler</name>
+      <description>%opl.samples.description.profiler</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_profiling_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>profiler</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.schedulingtutorial</name>
+      <description>%opl.samples.description.schedulingtutorial</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>tutorial</project>
+      </projects>
+   </sample>   
+   <sample>
+      <name>%opl.samples.name.qcpex1</name>
+      <description>%opl.samples.description.qcpex1</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_quadratic_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+	 <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.qp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>qcpex1</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.qpex1</name>
+      <description>%opl.samples.description.qpex1</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_quadratic_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+	 <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.qp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>qpex1</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.quadassign</name>
+      <description>%opl.samples.description.quadassign</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_syntax_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>quadassign</project>
+      </projects>
+   </sample>
+   <sample>
+	   <name>%opl.samples.name.relaxationiterator</name>
+	   <description>%opl.samples.description.relaxationiterator</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_misc_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>relaxationIterator</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sailco</name>
+      <description>%opl.samples.description.sailco</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_inventory_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sailco</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_alloc</name>
+      <description>%opl.samples.description.sched_alloc</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_alloc</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_bridge</name>
+      <description>%opl.samples.description.sched_bridge</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_bridge</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_bridgebr</name>
+      <description>%opl.samples.description.sched_bridgebr</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>sched_bridgebr</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_calendar</name>
+      <description>%opl.samples.description.sched_calendar</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_calendar</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_cumul</name>
+      <description>%opl.samples.description.sched_cumul</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_cumul</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_flowshop</name>
+      <description>%opl.samples.description.sched_flowshop</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_flowshop</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_intro</name>
+      <description>%opl.samples.description.sched_intro</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_intro</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_jobshop</name>
+      <description>%opl.samples.description.sched_jobshop</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_jobshop</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_jobshopflex</name>
+      <description>%opl.samples.description.sched_jobshopflex</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_jobshopflex</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_learning_effect</name>
+      <description>%opl.samples.description.sched_learning_effect</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_learning_effect</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_openshop</name>
+      <description>%opl.samples.description.sched_openshop</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_openshop</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_optional</name>
+      <description>%opl.samples.description.sched_optional</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_optional</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_pflowshop</name>
+      <description>%opl.samples.description.sched_pflowshop</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_pflowshop</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_production</name>
+      <description>%opl.samples.description.sched_production</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_production</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_rcpsp</name>
+      <description>%opl.samples.description.sched_rcpsp</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_rcpsp</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_rcpspmm</name>
+      <description>%opl.samples.description.sched_rcpspmm</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_rcpspmm</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_sequence</name>
+      <description>%opl.samples.description.sched_sequence</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_sequence</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_setup</name>
+      <description>%opl.samples.description.sched_setup</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_setup</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_shipload</name>
+      <description>%opl.samples.description.sched_shipload</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_shipload</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_square</name>
+      <description>%opl.samples.description.sched_square</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mathematicalgames"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_square</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_state</name>
+      <description>%opl.samples.description.sched_state</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_state</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_stochastic_jobshop</name>
+      <description>%opl.samples.description.sched_stochastic_jobshop</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.stochastic"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>sched_stochastic_jobshop</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_tcost</name>
+      <description>%opl.samples.description.sched_tcost</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_tcost</project>
+      </projects>
+   </sample>   
+   <sample>
+      <name>%opl.samples.name.sched_time</name>
+      <description>%opl.samples.description.sched_time</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_time</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_trolley1</name>
+      <description>%opl.samples.description.sched_trolley1</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_trolley1</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sched_trolley2</name>
+      <description>%opl.samples.description.sched_trolley2</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_scheduling_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>sched_trolley2</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sports</name>
+      <description>%opl.samples.description.sports</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>sports</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sports_strong</name>
+      <description>%opl.samples.description.sports_strong</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>sports_strong</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.steelmill</name>
+      <description>%opl.samples.description.steelmill</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>steelmill</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.talent</name>
+      <description>%opl.samples.description.talent</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_syntax_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>talent</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.teambuilding</name>
+      <description>%opl.samples.description.teambuilding</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>teambuilding</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.schoolclassscheduling</name>
+      <description>%opl.samples.description.schoolclassscheduling</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>timetabling</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.transp</name>
+      <description>%opl.samples.description.transp</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_commodity_flow_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>transp</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.vellino</name>
+      <description>%opl.samples.description.vellino</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_search_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>vellino</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.volsay</name>
+      <description>%opl.samples.description.volsay</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_product_mix_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>volsay</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.warehouse</name>
+      <description>%opl.samples.description.warehouse</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_warehouse_location_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>warehouse</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.warmstart</name>
+      <description>%opl.samples.description.warmstart</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_misc_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>warmstart</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.xsteel</name>
+      <description>%opl.samples.description.xsteel</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_production_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      </attributes>
+      <projects>
+         <project>xsteel</project>
+      </projects>
+   </sample>
+
+  <sample>
+    <name>%opl.samples.name.assemblysequencing</name>
+    <description>%opl.samples.description.assemblysequencing</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="Assembly, Manufacturing, Computers"/> -->
+    </attributes>
+    <projects>
+      <project>models/AssemblySequencing</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.basketballscheduling</name>
+    <description>%opl.samples.description.basketballscheduling</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_timetabling_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="Scheduling, Team assignment, Sports"/> -->
+    </attributes>
+    <projects>
+      <project>BasketballScheduling</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.bidselection</name>
+    <description>%opl.samples.description.bidselection</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_finance_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.finance"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Bidding</project>
+    </projects>
+  </sample>
+
+  <sample>
+    <name>%opl.samples.name.blendingmulti-period</name>
+    <description>%opl.samples.description.blendingmulti-period</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <!-- <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.mip"/>-->
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.milp"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="Blending, Manufacturing, Food, Multiperiod"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/BlendingMultiPeriod</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.capitalbudgeting</name>
+    <description>%opl.samples.description.capitalbudgeting</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_finance_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.finance"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="Capital, budget, investment, NPV Financial Planning, Project Selection"/> -->
+    </attributes>
+    <projects>
+      <project>models/Budget</project>
+    </projects>
+  </sample>    
+  
+  <sample>
+    <name>%opl.samples.name.callroute</name>
+    <description>%opl.samples.description.callroute</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_telecommunications_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.telecommunications"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value=""/> -->
+    </attributes>
+    <projects>
+      <project>models/CallRoute</project>
+    </projects>
+  </sample>  
+  <sample>
+    <name>%opl.samples.name.calltrafficoptimization</name>
+    <description>%opl.samples.description.calltrafficoptimization</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_telecommunications_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.telecommunications"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.decomposition"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      <!-- <attribute key="Keywords" value=""/> -->
+    </attributes>
+    <projects>
+      <project>models/CallTrafficOptimization</project>
+    </projects>
+  </sample>  
+  <sample>
+    <name>%opl.samples.name.car</name>
+    <description>%opl.samples.description.car</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="Manufacturing, Auto"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Car</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.decentralization</name>
+    <description>%opl.samples.description.decentralization</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_supply_chain_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="decentralization, location"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Decentrl</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.productdeployment</name>
+    <description>%opl.samples.description.productdeployment</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_supply_chain_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="product planning, production"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Deploy</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.economicplanning</name>
+    <description>%opl.samples.description.economicplanning</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_finance_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.finance"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="economy, growth"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/EconPlanning</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.factoryplanning</name>
+    <description>%opl.samples.description.factoryplanning</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="multi-perido, mix, factory planning"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/FactPlan</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.farmplanning</name>
+    <description>%opl.samples.description.farmplanning</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="farm planning, farming, agriculture"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/FarmPlanning</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.fleetassignment</name>
+    <description>%opl.samples.description.fleetassignment</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_transportation_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Fleet</project>
+    </projects>
+  </sample>
+
+  <sample>
+    <name>%opl.samples.name.foodmanufacture1</name>
+    <description>%opl.samples.description.foodmanufacture1</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="multi-period, mix"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/FoodManufacture1</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.manpowerplanning</name>
+    <description>%opl.samples.description.manpowerplanning</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_timetabling_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="staffing, staff planning"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Manpower</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.mineplanning</name>
+    <description>%opl.samples.description.mineplanning</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_mining_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mining"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.milp"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="mining, planning"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/MiningPlan</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.networkflows</name>
+    <description>%opl.samples.description.networkflows</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_transportation_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="network flow"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Netflow</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.noughtsandcrosses</name>
+    <description>%opl.samples.description.noughtsandcrosses</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_mathematical_games</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mathematicalgames"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="mathematical games"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/NoughtsAndCrosses</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.opencastmining</name>
+    <description>%opl.samples.description.opencastmining</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_mining_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mining"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="mining, opencast"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Opencast</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.outsourcing</name>
+    <description>%opl.samples.description.outsourcing</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_supply_chain_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="outsourcing, discounts, suppliers"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Outsource</project>
+    </projects>
+  </sample>  
+
+		
+  <sample>
+    <name>%opl.samples.name.portfoliooptimization</name>
+    <description>%opl.samples.description.portfoliooptimization</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_finance_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.finance"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.qp"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.decomposition"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      <!-- <attribute key="Keywords" value="portfolio selection"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Portfolio</project>
+    </projects>
+  </sample>  
+		  
+  <sample>
+    <name>%opl.samples.name.productionplanning</name>
+    <description>%opl.samples.description.productionplanning</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="production planning, piecewise objective"/> -->
+    </attributes>
+    <projects>
+      <project>models/Prodplan</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.refineryplanning</name>
+    <description>%opl.samples.description.refineryplanning</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.energy"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="refinery"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Refinery</project>
+    </projects>
+  </sample>  		 
+
+  <sample>
+    <name>%opl.samples.name.airtrafficflowmanagement</name>
+    <description>%opl.samples.description.airtrafficflowmanagement</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_transportation_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      <!-- <attribute key="Keywords" value="scheduling, airlines"/> -->
+    </attributes>
+    <projects>
+      <project>models/sched_atfm</project>
+    </projects>
+  </sample>
+
+  <sample>
+    <name>%opl.samples.name.flowshopscheduling</name>
+    <description>%opl.samples.description.flowshopscheduling</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="scheduling"/> -->
+    </attributes>
+    <projects>
+      <project>models/sched_flowshop2</project>
+    </projects>
+  </sample>
+
+
+  <sample>
+    <name>%opl.samples.name.multimachineassignmentschedulingproblem</name>
+    <description>%opl.samples.description.multimachineassignmentschedulingproblem</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="manufacturing, scheduling"/> -->
+    </attributes>
+    <projects>
+      <project>models/sched_mmasp</project>
+    </projects>
+  </sample>  	
+
+
+  <sample>
+    <name>%opl.samples.name.taskscheduling</name>
+    <description>%opl.samples.description.taskscheduling</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_timetabling_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      <!-- <attribute key="Keywords" value="scheduling, worker assignment"/> -->
+    </attributes>
+    <projects>
+      <project>models/sched_tasks</project>
+    </projects>
+  </sample>  		 				  
+		
+  <sample>
+    <name>%opl.samples.name.woodcuttingproblem</name>
+    <description>%opl.samples.description.woodcuttingproblem</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="manufacturing, scheduling"/> -->
+    </attributes>
+    <projects>
+      <project>models/sched_wood</project>
+    </projects>
+  </sample>  		 				  
+
+  <sample>
+    <name>%opl.samples.name.staffassignment</name>
+    <description>%opl.samples.description.staffassignment</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_timetabling_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="staffing, staff assignment, retail, fast food"/> -->
+    </attributes>
+    <projects>
+      <project>models/Staffing</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.steelproduction</name>
+    <description>%opl.samples.description.steelproduction</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_manufacturing_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.manufacturing"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.basic"/>
+      <!-- <attribute key="Keywords" value="production, steel"/> -->
+    </attributes>
+    <projects>
+      <project>models/Steelprod</project>
+    </projects>
+  </sample>  		 				  
+
+
+  <sample>
+    <name>%opl.samples.name.multistagesupplychain</name>
+    <description>%opl.samples.description.multistagesupplychain</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_supply_chain_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.supplychain"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.milp"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="multi-echelon, plants, products"/> -->
+    </attributes>
+    <projects>
+      <project>models/SupplyChain</project>
+    </projects>
+  </sample>  
+  <sample>
+    <name>%opl.samples.name.travelingsalesmanproblem</name>
+    <description>%opl.samples.description.travelingsalesmanproblem</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_traveling_salesman</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      <!-- <attribute key="Keywords" value="trucking, truck assignment"/> -->
+    </attributes>
+    <projects>
+      <project>models/TravelingSalesmanProblem</project>
+    </projects>
+  </sample>  
+  <sample>
+    <name>%opl.samples.name.trucking</name>
+    <description>%opl.samples.description.trucking</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_transportation_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="trucking, truck assignment"/> -->
+    </attributes>
+    <projects>
+      <project>models/Trucking</project>
+    </projects>
+  </sample>  
+
+  <sample>
+    <name>%opl.samples.name.airlineyieldmanagement</name>
+    <description>%opl.samples.description.airlineyieldmanagement</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_transportation_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="yield management, airlines"/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/Yield</project>
+    </projects>
+  </sample>  		   
+		  
+  <sample>
+    <name>%opl.samples.name.yieldmanagement</name>
+    <description>%opl.samples.description.yieldmanagement</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_transportation_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.milp"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.stochastic"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value=""/> -->
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+    <projects>
+      <project>models/YieldStochastic</project>
+    </projects>
+  </sample>  		 		  
+
+  <sample>
+    <name>%opl.samples.name.wellmining</name>
+    <description>%opl.samples.description.wellmining</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_mining_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mining"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cpscheduling"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      <!-- <attribute key="Keywords" value="mining, well"/> -->
+    </attributes>
+    <projects>
+      <project>sched_wells</project>
+    </projects>
+  </sample>
+   <sample>
+      <name>%opl.samples.name.distMIP</name>
+      <description>%opl.samples.description.distMIP</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_quadratic_problems</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.mathematicalgames"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      </attributes>
+      <projects>
+         <project>distMIP</project>
+      </projects>
+   </sample>
+   <sample>
+      <name>%opl.samples.name.sportsScheduling</name>
+      <description>%opl.samples.description.sportsScheduling</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>sportsScheduling</project>
+      </projects>
+   </sample>   
+   <sample>
+      <name>%opl.samples.name.sportsSchedulingCPLEX</name>
+      <description>%opl.samples.description.sportsSchedulingCPLEX</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+		<attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.cloud"/>
+		</attributes>
+      <projects>
+         <project>sportsSchedulingCPLEX</project>
+      </projects>
+   </sample>   
+   <sample>
+      <name>%opl.samples.name.flightpairing</name>
+      <description>%opl.samples.description.flightpairing</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_combinatorial_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.transportation"/>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplmodel"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.integerprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.advanced"/>
+      </attributes>
+      <projects>
+         <project>models/flight_pairing</project>
+      </projects>
+   </sample>   
+   <sample>
+      <name>%opl.samples.name.timetable</name>
+      <description>%opl.samples.description.timetable</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_timetabling_models</helpContextId>
+    <attributes>
+      <attribute key="%opl.samples.attribute.industry" value="%opl.samples.attribute.industry.timetabling"/>
+      <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.oplscript"/>
+      <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.cp"/>
+      <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+    </attributes>
+      <projects>
+         <project>timetable</project>
+      </projects>
+   </sample>   
+  <sample>
+      <name>%opl.samples.name.cplex_staticLex</name>
+      <description>%opl.samples.description.cplex_staticLex</description>
+      <helpContextId>ilog.odms.ide.help.opl_ide_examples_opl_syntax_examples</helpContextId>
+      <attributes>
+         <attribute key="%opl.samples.attribute.feature" value="%opl.samples.attribute.feature.lexicographic"/>
+         <attribute key="%opl.samples.attribute.technique" value="%opl.samples.attribute.technique.linearprogramming"/>
+         <attribute key="%opl.samples.attribute.complexity" value="%opl.samples.attribute.complexity.intermediate"/>
+      </attributes>
+      <projects>
+         <project>cplex_staticLex</project>
+      </projects>
+   </sample>
+  </samples>

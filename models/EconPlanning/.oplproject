@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>Economic Planning model, Linear Programming</description>  
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="econPlanning.dat" type="data"/>
+      <ref name="econPlanning.mod" type="model"/>
+    </config>
+  </configs>
+</project>

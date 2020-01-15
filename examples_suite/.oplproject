@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Run a suite of examples</description>
+	<configs>
+		<config name="RunAll" default="true" category="opl">
+			<ref type="model" name="examples_suite.mod">
+			</ref>
+		</config>
+		<config name="RunAllProjects" default="false" category="opl">
+			<ref type="model" name="examples_suite_projects.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

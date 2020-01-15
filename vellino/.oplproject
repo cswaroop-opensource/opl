@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>Column generation model</description>  
+  <configs>
+    <config name="Vellino" default="true" category="opl">
+      <ref name="vellino.mod" type="model"/>
+      <ref name="vellinocommon.dat" type="data"/>
+    </config>
+    <config name="Bin generation" default="false" category="opl">
+      <ref name="vellinocommon.dat" type="data"/>
+      <ref name="vellinogenBin.mod" type="model"/>
+    </config>
+    <config name="Bin selection" default="false" category="opl">
+      <ref name="vellinochooseBin.mod" type="model"/>
+      <ref name="vellinocommon.dat" type="data"/>
+    </config>
+  </configs>
+</project>

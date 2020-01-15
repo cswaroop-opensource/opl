@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Production planning model, Integer Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Main">
+			<ref type="data" name="production.dat">
+			</ref>
+			<ref type="model" name="totalprod.mod">
+			</ref>
+		</config>
+		<config category="opl" default="true" name="Sub model">
+			<ref type="data" name="period.dat">
+			</ref>
+			<ref type="model" name="period.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

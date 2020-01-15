@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>A Food Manufacturing model, Linear Programming</description>
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="foodmanufact1.dat" type="data"/>
+      <ref name="foodmanufact1.mod" type="model"/>
+    </config>
+  </configs>
+</project>

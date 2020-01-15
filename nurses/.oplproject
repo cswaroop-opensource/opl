@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Nurses Scheduling model, MIP</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="data" name="nurses.dat">
+			</ref>
+			<ref type="model" name="nurses.mod">
+			</ref>
+			<ref type="setting" name="nurses.ops">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,70 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+Cities = {Bristol, Brighton, London};
+Depts = {A, B, C, D, E};
+
+BenefitSet = {<"A", "Bristol", 10.0>,
+<"A", "Brighton", 10.0>,
+<"A", "London", 0.0>,
+<"B", "Bristol", 15.0>,
+<"B", "Brighton", 20.0>,
+<"B", "London", 0.0>,
+<"C", "Bristol", 10.0>,
+<"C", "Brighton", 15.0>,
+<"C", "London", 0.0>,
+<"D", "Bristol", 20.0>,
+<"D", "Brighton", 15.0>,
+<"D", "London", 0.0>,
+<"E", "Bristol", 5.0>,
+<"E", "Brighton", 15.0>,
+<"E", "London", 0.0>
+};
+
+CostCommSet = {<"Bristol", "Bristol", 5.0>,
+<"Bristol", "Brighton", 14.0>,
+<"Bristol", "London", 13.0>,
+<"Brighton", "Bristol", 14.0>,
+<"Brighton", "Brighton", 5.0>,
+<"Brighton", "London", 9.0>,
+<"London", "Bristol", 13.0>,
+<"London", "Brighton", 9.0>,
+<"London", "London", 10.0>
+};
+
+CommSet = {<"A", "A", 0.0>,
+<"A", "B", 0.0>,
+<"A", "C", 1.0>,
+<"A", "D", 1.5>,
+<"A", "E", 0.0>,
+<"B", "A", 0.0>,
+<"B", "B", 0.0>,
+<"B", "C", 1.4>,
+<"B", "D", 1.2>,
+<"B", "E", 0.0>,
+<"C", "A", 0.0>,
+<"C", "B", 0.0>,
+<"C", "C", 0.0>,
+<"C", "D", 0.0>,
+<"C", "E", 2.0>,
+<"D", "A", 0.0>,
+<"D", "B", 0.0>,
+<"D", "C", 0.0>,
+<"D", "D", 0.0>,
+<"D", "E", 0.7>,
+<"E", "A", 0.0>,
+<"E", "B", 0.0>,
+<"E", "C", 0.0>,
+<"E", "D", 0.0>,
+<"E", "E", 0.0>
+};
+          
+Params = <3>;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Portfolio Optimization, Quadratic Programming, Decomposition</description>
+	<configs>
+		<config name="Basic Configuration" default="true" category="opl">
+			<ref type="data" name="portfolio.dat">
+			</ref>
+			<ref type="model" name="portfolio.mod">
+			</ref>
+		</config>
+		<config name="Benders Decomposition" default="false" category="opl">
+			<ref type="model" name="portfolioBendersDecomposition.mod">
+			</ref>
+			<ref type="data" name="portfolioBendersDecomposition.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

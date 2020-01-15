@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>TSP</description>
+	<configs>
+		<config category="opl" default="true" name="Small">
+			<ref type="model" name="tsp.mod">
+			</ref>
+			<ref type="data" name="gr17.dat">
+			</ref>
+			<ref type="data" name="params.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Big">
+			<ref type="model" name="tsp.mod">
+			</ref>
+			<ref type="data" name="berlin52.dat">
+			</ref>
+			<ref type="data" name="params.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

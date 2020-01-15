@@ -1,0 +1,28 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+Raw = {Veg1, Veg2, Oil1, Oil2, Oil3};
+NbMonths = 6;
+CostRaw = [[110 120 130 110 115]
+           [130 130 110  90 115]
+           [110 140 130 100  95]
+           [120 110 120 120 125]
+           [100 120 150 110 105]
+           [90  100 140  80 135] ];
+IsVeg = [1 1 0 0 0];
+IsOil = [0 0 1 1 1];
+ProfitProd = 150;
+CostStore = 5;
+MaxVeg = 200;
+MaxOil = 250;
+StartEndStore = 500;
+MaxStore = 1000;
+HardRaw = [8.8 6.1 2 4.2 5];

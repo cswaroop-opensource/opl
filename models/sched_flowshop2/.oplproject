@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Flowshop scheduling for a computer assembly plant, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Configuration1">
+			<ref type="model" name="sched_flowshop2.mod">
+			</ref>
+			<ref type="data" name="sched_flowshop2.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

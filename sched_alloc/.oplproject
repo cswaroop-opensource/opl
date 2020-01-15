@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Resource Allocation for House Building, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="model" name="sched_alloc.mod">
+			</ref>
+			<ref type="data" name="sched_alloc.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

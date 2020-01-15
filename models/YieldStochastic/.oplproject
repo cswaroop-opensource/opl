@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>Yield management using stochastic programming</description>  
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="yieldstochastic.dat" type="data"/>
+      <ref name="yieldstochastic.mod" type="model"/>
+    </config>
+  </configs>
+</project>

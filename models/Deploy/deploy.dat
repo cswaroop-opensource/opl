@@ -1,0 +1,115 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+// The nodes of the supply chain
+Sites = {
+   Atlanta,
+   Chicago,
+   Dallas,
+   Denver,
+   Newark,
+   Pasadena,
+   Portland
+};
+
+// The articles
+Articles = {
+   A04567,
+   A04900
+};
+
+// Directed links of the supply chain
+Links = {
+   <   Atlanta,   Chicago    >,
+   <   Chicago,   Dallas     >,
+   <   Chicago,   Denver     >,
+   <   Dallas,    Newark     >,
+   <   Dallas,    Pasadena   >,
+   <   Portland,  Dallas     >,
+   <   Portland,  Denver     >
+};
+
+OnHandSet = {<"Atlanta", "A04567", 200.0>,
+<"Atlanta", "A04900", 150.0>,
+<"Chicago", "A04567", 30.0>,
+<"Chicago", "A04900", 90.0>,
+<"Dallas", "A04567", 70.0>,
+<"Dallas", "A04900", 50.0>,
+<"Denver", "A04567", 100.0>,
+<"Denver", "A04900", 10.0>,
+<"Newark", "A04567", 100.0>,
+<"Newark", "A04900", 10.0>,
+<"Pasadena", "A04567", 100.0>,
+<"Pasadena", "A04900", 10.0>,
+<"Portland", "A04567", 200.0>,
+<"Portland", "A04900", 100.0>
+};
+
+DemandSet = {<"Atlanta", "A04567", 0.0>,
+<"Atlanta", "A04900", 0.0>,
+<"Chicago", "A04567", 50.0>,
+<"Chicago", "A04900", 30.0>,
+<"Dallas", "A04567", 40.0>,
+<"Dallas", "A04900", 80.0>,
+<"Denver", "A04567", 30.0>,
+<"Denver", "A04900", 10.0>,
+<"Newark", "A04567", 30.0>,
+<"Newark", "A04900", 50.0>,
+<"Pasadena", "A04567", 30.0>,
+<"Pasadena", "A04900", 20.0>,
+<"Portland", "A04567", 0.0>,
+<"Portland", "A04900", 10.0>
+};
+
+CostSet = {<<"Atlanta", "Chicago">, 2.0>,
+<<"Chicago", "Dallas">, 2.0>,
+<<"Chicago", "Denver">, 1.0>,
+<<"Dallas", "Newark">, 2.0>,
+<<"Dallas", "Pasadena">, 1.0>,
+<<"Portland", "Dallas">, 1.0>,
+<<"Portland", "Denver">, 1.0>
+};
+
+LinkExtraCostSet = {<<"Atlanta", "Chicago">, 2.0>,
+<<"Chicago", "Dallas">, 1.0>,
+<<"Chicago", "Denver">, 2.0>,
+<<"Dallas", "Newark">, 1.0>,
+<<"Dallas", "Pasadena">, 1.0>,
+<<"Portland", "Dallas">, 1.0>,
+<<"Portland", "Denver">, 1.0>
+};
+
+LinkCapacitySet = {<<"Atlanta", "Chicago">, 50.0>,
+<<"Chicago", "Dallas">, 40.0>,
+<<"Chicago", "Denver">, 60.0>,
+<<"Dallas", "Newark">, 60.0>,
+<<"Dallas", "Pasadena">, 40.0>,
+<<"Portland", "Dallas">, 30.0>,
+<<"Portland", "Denver">, 30.0>
+};
+
+SiteCapacitySet = {<"Atlanta", 100.0>,
+<"Chicago", 150.0>,
+<"Dallas", 100.0>,
+<"Denver", 120.0>,
+<"Newark", 100.0>,
+<"Pasadena", 180.0>,
+<"Portland", 100.0>
+};
+
+SiteExtraCostSet = {<"Atlanta", 2.0>,
+<"Chicago", 5.0>,
+<"Dallas", 2.0>,
+<"Denver", 1.0>,
+<"Newark", 1.0>,
+<"Pasadena", 3.0>,
+<"Portland", 1.0>
+};

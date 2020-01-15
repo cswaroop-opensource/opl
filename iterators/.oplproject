@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>A basic example that shows how to iterate through some OPL elements</description>
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="iterators.mod" type="model"/>
+    </config>
+  </configs>
+</project>

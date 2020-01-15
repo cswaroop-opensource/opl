@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>A school class scheduling problem, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="false" name="Small data">
+			<ref type="data" name="timetabling-base.dat">
+			</ref>
+			<ref type="data" name="timetabling-small.dat">
+			</ref>
+			<ref type="model" name="timetabling.mod">
+			</ref>
+		</config>
+		<config category="opl" default="true" name="Large data">
+			<ref type="data" name="timetabling-base.dat">
+			</ref>
+			<ref type="data" name="timetabling-large.dat">
+			</ref>
+			<ref type="model" name="timetabling.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

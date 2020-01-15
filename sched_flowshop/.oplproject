@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Classical Flow-shop scheduling problem, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic">
+			<ref type="data" name="sched_flowshop.dat">
+			</ref>
+			<ref type="model" name="sched_flowshop.mod">
+			</ref>
+			<ref type="setting" name="sched_flowshop.ops">
+			</ref>
+		</config>
+	</configs>	
+</project>

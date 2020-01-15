@@ -1,0 +1,91 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+NbHouses = 5;
+Deadline =  318;
+
+Workers = { "Joe", 
+            "Jack", 
+            "Jim" 
+            };
+
+Tasks = { "masonry", 
+          "carpentry", 
+          "plumbing", 
+          "ceiling",
+          "roofing", 
+          "painting", 
+          "windows", 
+          "facade",
+          "garden", 
+          "moving" 
+          };
+
+Durations =  [
+  35,
+  15,
+  40,
+  15,
+  05,
+  10,
+  05,
+  10,
+  05,
+  05
+];
+
+Skills = {
+ < "Joe",  "masonry",   9>,   
+ < "Joe",  "carpentry", 7>,
+ < "Joe",  "ceiling",   5>,
+ < "Joe",  "roofing",   6>, 
+ < "Joe",  "windows",   8>, 
+ < "Joe",  "facade",    5>,
+ < "Joe",  "garden",    5>, 
+ < "Joe",  "moving",    6>,
+ < "Jack", "masonry",   5>,   
+ < "Jack", "plumbing",  7>, 
+ < "Jack", "ceiling",   8>,
+ < "Jack", "roofing",   7>, 
+ < "Jack", "painting",  9>, 
+ < "Jack", "facade",    5>,
+ < "Jack", "garden",    5>, 
+ < "Jim",  "carpentry", 5>,
+ < "Jim",  "painting",  6>, 
+ < "Jim",  "windows",   5>, 
+ < "Jim",  "garden",    9>, 
+ < "Jim",  "moving",    8>
+};
+
+Precedences = {
+  < "masonry",   "carpentry" >,
+  < "masonry",   "plumbing"  >,
+  < "masonry",   "ceiling"   >,
+  < "carpentry", "roofing"   >,
+  < "ceiling",   "painting"  >,
+  < "roofing",   "windows"   >,
+  < "roofing",   "facade"    >,
+  < "plumbing",  "facade"    >,
+  < "roofing",   "garden"    >,
+  < "plumbing",  "garden"    >,
+  < "windows",   "moving"    >,
+  < "facade",    "moving"    >,
+  < "garden",    "moving"    >,
+  < "painting",  "moving"    >
+ };
+ 
+Continuities = {
+  < "Joe",  "masonry",   "carpentry" >,
+  < "Jack", "roofing",   "facade"    >,    
+  < "Joe",  "carpentry", "roofing"   >,
+  < "Jim",  "garden",    "moving"    >
+};
+ 

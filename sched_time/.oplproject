@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>A house building problem with earliness/tardiness costs, Constraint Programming</description>
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="sched_time.mod" type="model"/>
+    </config>
+  </configs>
+</project>

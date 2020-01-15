@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Classical Resource-Constrained Project Scheduling problem, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="sched_rcpspmm rcpspmm_j30_12_8">
+			<ref type="data" name="rcpspmm_j30_12_8.dat">
+			</ref>
+			<ref type="model" name="sched_rcpspmm.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpspmm.ops">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_rcpspmm rcpspmm_j30_17_7">
+			<ref type="data" name="rcpspmm_j30_17_7.dat">
+			</ref>
+			<ref type="model" name="sched_rcpspmm.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpspmm.ops">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_rcpspmm rcpspmm_j30_27_6">
+			<ref type="data" name="rcpspmm_j30_27_6.dat">
+			</ref>
+			<ref type="model" name="sched_rcpspmm.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpspmm.ops">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_rcpspmm rcpspmm_j30_46_1">
+			<ref type="data" name="rcpspmm_j30_46_1.dat">
+			</ref>
+			<ref type="model" name="sched_rcpspmm.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpspmm.ops">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_rcpspmm rcpspmm_j30_62_10">
+			<ref type="data" name="rcpspmm_j30_62_10.dat">
+			</ref>
+			<ref type="model" name="sched_rcpspmm.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpspmm.ops">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

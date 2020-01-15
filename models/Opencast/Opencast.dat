@@ -1,0 +1,46 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+PureValue = 200000.0;
+NbLevels = 4;
+Cost = [ 3000.0, 6000.0, 8000.0, 10000.0 ];
+Blocks = {
+   #<purity:  6.0  level: 4  x: 0  y: 0>#
+   #<purity:  5.0  level: 3  x:-1  y: -1>#
+   #<purity:  4.0  level: 3  x: 1  y: -1>#
+   #<purity: 12.0  level: 3  x: -1 y: 1>#
+   #<purity:  6.0  level: 3  x: 1  y: 1>#
+   #<purity:  2.0  level: 2  x: -2 y: -2>#
+   #<purity:  2.0  level: 2  x: 0  y: -2>#
+   #<purity:  0.5  level: 2  x: 2  y: -2>#
+   #<purity:  3.0  level: 2  x: -2 y: 0>#
+   #<purity:  3.0  level: 2  x: 0  y: 0>#
+   #<purity:  1.0  level: 2  x: 2  y: 0>#
+   #<purity:  4.0  level: 2  x: -2 y: 2>#
+   #<purity:  4.0  level: 2  x: 0  y: 2>#
+   #<purity:  2.0  level: 2  x: 2  y: 2>#
+   #<purity:  0.75 level: 1  x: -3 y: -3>#
+   #<purity:  0.75 level: 1  x: -1 y: -3>#
+   #<purity:  0.5  level: 1  x: 1  y: -3>#
+   #<purity:  0.25 level: 1  x: 3  y: -3>#
+   #<purity:  1.0  level: 1  x: -3 y: -1>#
+   #<purity:  1.0  level: 1  x: -1 y: -1>#
+   #<purity:  0.75 level: 1  x: 1  y: -1>#
+   #<purity:  0.5  level: 1  x: 3  y: -1>#
+   #<purity:  1.5  level: 1  x: -3 y: 1>#
+   #<purity:  2.0  level: 1  x: -1 y: 1>#
+   #<purity:  1.5  level: 1  x: 1  y: 1>#
+   #<purity:  0.75 level: 1  x: 3  y: 1>#
+   #<purity:  1.5  level: 1  x: -3 y: 3>#
+   #<purity:  1.5  level: 1  x: -1 y: 3>#
+   #<purity:  1.5  level: 1  x: 1  y: 3>#
+   #<purity:  0.75 level: 1  x: 3  y: 3>#
+};

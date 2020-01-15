@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Classical Flexible job-shop scheduling problem, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic">
+			<ref type="data" name="sched_jobshopflex.dat">
+			</ref>
+			<ref type="model" name="sched_jobshopflex.mod">
+			</ref>
+			<ref type="setting" name="sched_jobshopflex.ops">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

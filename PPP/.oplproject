@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Progressive party problem, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="data" name="PPP.dat">
+			</ref>
+			<ref type="model" name="PPP.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Excel version">
+			<ref type="model" name="PPP.mod">
+			</ref>
+			<ref type="data" name="PPPSheet.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

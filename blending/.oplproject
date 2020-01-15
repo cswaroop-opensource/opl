@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>A simple metal blending problem, MILP</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="data" name="blending.dat">
+			</ref>
+			<ref type="model" name="blending.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

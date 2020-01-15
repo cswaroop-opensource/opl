@@ -1,0 +1,55 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+vol = #[
+   <   Atlanta,   Chicago   >:   600,
+   <   Atlanta,   Dallas   >:   500,
+   <   Atlanta,   Denver   >:   400,
+   <   Atlanta,   Newark   >:   900,
+   <   Atlanta,   Pasadena   >:   1000,
+   <   Atlanta,   Portland   >:   400,
+   <   Chicago,   Atlanta   >:   700,
+   <   Chicago,   Dallas   >:   600,
+   <   Chicago,   Denver   >:   500,
+   <   Chicago,   Newark   >:   300,
+   <   Chicago,   Pasadena   >:   300,
+   <   Chicago,   Portland   >:   800,
+   <   Dallas,   Atlanta   >:   900,
+   <   Dallas,   Chicago   >:   200,
+   <   Dallas,   Denver   >:   900,
+   <   Dallas,   Newark   >:   500,
+   <   Dallas,   Pasadena   >:   700,
+   <   Dallas,   Portland   >:   700,
+   <   Denver,   Atlanta   >:   700,
+   <   Denver,   Chicago   >:   700,
+   <   Denver,   Dallas   >:   300,
+   <   Denver,   Newark   >:   900,
+   <   Denver,   Pasadena   >:   700,
+   <   Denver,   Portland   >:   500,
+   <   Newark,   Atlanta   >:   700,
+   <   Newark,   Chicago   >:   600,
+   <   Newark,   Dallas   >:   500,
+   <   Newark,   Denver   >:   400,
+   <   Newark,   Pasadena   >:   900,
+   <   Newark,   Portland   >:   400,
+   <   Pasadena,   Atlanta   >:   500,
+   <   Pasadena,   Chicago   >:   300,
+   <   Pasadena,   Dallas   >:   700,
+   <   Pasadena,   Denver   >:   200,
+   <   Pasadena,   Newark   >:   300,
+   <   Pasadena,   Portland   >:   700,
+   <   Portland,   Atlanta   >:   700,
+   <   Portland,   Chicago   >:   800,
+   <   Portland,   Dallas   >:   800,
+   <   Portland,   Denver   >:   300,
+   <   Portland,   Newark   >:   500,
+   <   Portland,   Pasadena   >:   300
+]#;

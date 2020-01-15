@@ -1,0 +1,71 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+resources = {
+  <0, Operator,          "Patrick" >,
+  <1, Technician,        "JohnTec" >,
+  <2, Technician,        "PierreT" >,
+  <3, CherryPicker,      "VIN43CP" >,
+  <4, CherryPicker,      "VIN44CP" >,
+  <5, ISDNPacketMonitor, "EQ12ISD" >, 
+  <6, ISDNTechnician,    "RogerTe" >
+};
+
+requests = { 
+  <0, FirstLineInstall,  22, "FLIL1">, 
+  <1, SecondLineInstall, 22, "SLIL1">, 
+  <2, FirstLineInstall,   1, "FLIL2">, 
+  <3, ISDNInstall,       21, "ISDN1">,
+  <4, SecondLineInstall, 21, "SLII2">,
+  <5, ISDNInstall,       22, "ISDN2">
+};
+
+tasks = {
+  <0, MakeAppointment,      1, "MAPT">,
+  <1, FlipSwitch,           1, "FLSW">,
+  <3, InteriorSiteCall,     3, "INSC">,
+  <4, ISDNInteriorSiteCall, 3, "ISDN">,
+  <5, ExteriorSiteCall,     2, "EXSC">,
+  <6, TestLine,             1, "TELI">            
+};
+
+recipes = {
+  <FirstLineInstall,  FlipSwitch>,
+  <FirstLineInstall,  TestLine>,
+  <SecondLineInstall, MakeAppointment>,
+  <SecondLineInstall, InteriorSiteCall>,
+  <SecondLineInstall, TestLine>,
+  <ISDNInstall,       MakeAppointment>,
+  <ISDNInstall,       ISDNInteriorSiteCall>,
+  <ISDNInstall,       ExteriorSiteCall>,
+  <ISDNInstall,       TestLine>
+};
+
+dependencies = {
+  <FirstLineInstall,  TestLine,             FlipSwitch,       0>,
+  <SecondLineInstall, TestLine,             InteriorSiteCall, 0>,
+  <SecondLineInstall, InteriorSiteCall,     MakeAppointment,  0>,
+  <ISDNInstall,       TestLine,             InteriorSiteCall, 0>,
+  <ISDNInstall,       TestLine,             ExteriorSiteCall, 0>,
+  <ISDNInstall,       ISDNInteriorSiteCall, MakeAppointment,  0>
+};
+
+requirements = {
+  <MakeAppointment,      Operator,          1>,
+  <FlipSwitch,           Technician,        1>,
+  <InteriorSiteCall,     Technician,        2>,
+  <ISDNInteriorSiteCall, Technician,        1>, 
+  <ISDNInteriorSiteCall, ISDNTechnician,    1>, 
+  <ISDNInteriorSiteCall, ISDNPacketMonitor, 1>,
+  <ExteriorSiteCall,     Technician,        2>, 
+  <ExteriorSiteCall,     CherryPicker,      1>,
+  <TestLine,             Technician,        1>
+};

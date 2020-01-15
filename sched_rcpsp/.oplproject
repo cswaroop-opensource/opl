@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Classical Resource-Constrained Project Scheduling problem, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="sched_rcpsp rcpsp_j120_1_2">
+			<ref type="data" name="rcpsp_j120_1_2.dat">
+			</ref>
+			<ref type="model" name="sched_rcpsp.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpsp.ops">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_rcpsp rcpsp_j120_2_9">
+			<ref type="data" name="rcpsp_j120_2_9.dat">
+			</ref>
+			<ref type="model" name="sched_rcpsp.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpsp.ops">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_rcpsp rcpsp_j120_22_6">
+			<ref type="data" name="rcpsp_j120_22_6.dat">
+			</ref>
+			<ref type="model" name="sched_rcpsp.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpsp.ops">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_rcpsp rcpsp_j120_32_8">
+			<ref type="data" name="rcpsp_j120_32_8.dat">
+			</ref>
+			<ref type="model" name="sched_rcpsp.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpsp.ops">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_rcpsp rcpsp_j120_41_5">
+			<ref type="data" name="rcpsp_j120_41_5.dat">
+			</ref>
+			<ref type="model" name="sched_rcpsp.mod">
+			</ref>
+			<ref type="setting" name="sched_rcpsp.ops">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

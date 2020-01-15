@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Scheduling Tutorial, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="sched_calendar">
+			<ref type="model" name="sched_calendar.mod">
+			</ref>
+			<ref type="data" name="sched_calendar.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_cumul">
+			<ref type="model" name="sched_cumul.mod">
+			</ref>
+			<ref type="data" name="sched_cumul.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_optional">
+			<ref type="model" name="sched_optional.mod">
+			</ref>
+			<ref type="data" name="sched_optional.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_sequence">
+			<ref type="model" name="sched_sequence.mod">
+			</ref>
+			<ref type="data" name="sched_sequence.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_state">
+			<ref type="model" name="sched_state.mod">
+			</ref>
+			<ref type="data" name="sched_state.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_time">
+			<ref type="model" name="sched_time.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,37 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+//
+// Data
+//
+
+maxDiameter = 60;
+nbTrucks = 10; 
+maxStandsTogether = 4;
+nbPeriodsPerDay = 10; 
+costPerDay = 100; 
+costPerLateFoot = 100;
+maxCost = 10000;
+Species = {"oak", "beech", "pine"};
+cutTime = #["oak":3, "beech":5, "pine":7]#;
+stands = {
+  <10, "oak", 20, 991, 1>,
+  <10, "oak", 10, 988, 0>,
+  <20, "beech", 20, 210, 0>,
+  <10, "pine", 30, 210, 1>,
+  <30, "beech", 30, 1013, 0>,
+  <30, "oak", 10, 1005, 0>,
+  <10, "oak", 40, 1120, 0>,
+  <10, "beech", 41, 300, 1>,
+  <10, "beech", 42, 600, 1>,
+  <20, "oak", 21, 1010, 0>,
+  <20, "pine", 10, 918, 0>
+};

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config category="opl" default="false" name="generate_one_pairing">
+			<ref name="GenerateOnePairing.mod" type="model">
+			</ref>
+			<ref name="FlightPairing.dat" type="data">
+			</ref>
+			<ref name="PairingGeneration.dat" type="data">
+			</ref>
+			<ref name="DefaultGenerateOnePairing.dat" type="data">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="lp_covering">
+			<ref name="LPCovering.mod" type="model">
+			</ref>
+			<ref name="FlightPairing.dat" type="data">
+			</ref>
+			<ref name="PairingGeneration.dat" type="data">
+			</ref>
+			<ref name="minimal_pairings.dat" type="data">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="mip_covering">
+			<ref name="MIPCovering.mod" type="model">
+			</ref>
+			<ref name="FlightPairing.dat" type="data">
+			</ref>
+			<ref name="PairingGeneration.dat" type="data">
+			</ref>
+			<ref name="minimal_pairings.dat" type="data">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="generate_new_pairing">
+			<ref name="GenerateBestPairing.mod" type="model">
+			</ref>
+			<ref name="FlightPairing.dat" type="data">
+			</ref>
+			<ref name="PairingGeneration.dat" type="data">
+			</ref>
+			<ref name="sample_cover_duals.dat" type="data">
+			</ref>
+		</config>
+		<config category="opl" default="true" name="flight_pairing_main_loop">
+			<ref name="FlightPairing_main.mod" type="model">
+			</ref>
+			<ref name="FlightPairing.dat" type="data">
+			</ref>
+			<ref name="PairingGeneration.dat" type="data">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="generate_minimal_pairings">
+			<ref name="GenerateMinimalPairings.mod" type="model">
+			</ref>
+			<ref name="FlightPairing.dat" type="data">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="generate_random_pairing">
+			<ref name="GenerateOnePairingWithMaxCost.mod" type="model">
+			</ref>
+			<ref name="FlightPairing.dat" type="data">
+			</ref>
+			<ref name="PairingGeneration.dat" type="data">
+			</ref>
+			<ref name="DefaultGenerateRandomPairing.dat" type="data">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="generate_initial_pairings">
+			<ref name="GenerateNPairings.mod" type="model">
+			</ref>
+			<ref name="FlightPairing.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

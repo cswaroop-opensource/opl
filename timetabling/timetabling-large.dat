@@ -1,0 +1,44 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+NumberOfDaysPerPeriod = 8;
+
+// what pupils are required to be taught
+// <"class", "discipline", nHours, nTimes>
+RequirementSet = {
+  <"X","Biology", 1, 4>,
+  <"X","Economy", 1, 2>,
+  <"X","French", 1, 6>,
+  <"X","Geography", 1, 4>,
+  <"X","History", 1, 4>,
+  <"X","Maths", 2, 8>,
+  <"X","Physics", 1, 4>,
+  <"X","Sport", 1, 4>,
+
+  <"Y","Biology", 1, 4>,
+  <"Y","Economy", 2, 8>,
+  <"Y","French", 1, 6>,
+  <"Y","Geography", 1, 4>,
+  <"Y","History", 1, 4>,
+  <"Y","Maths", 1, 4>,
+  <"Y","Physics", 1, 2>,
+  <"Y","Sport", 1, 4>,
+
+  <"Z","Biology", 1, 4>,
+  <"Z","Economy", 1, 4>,
+  <"Z","French", 2, 8>,
+  <"Z","Geography", 1, 4>
+  <"Z","History", 1, 4>,
+  <"Z","Maths", 1, 4>,
+  <"Z","Physics", 1, 2>,
+  <"Z","Sport", 1, 4>,
+ 
+};

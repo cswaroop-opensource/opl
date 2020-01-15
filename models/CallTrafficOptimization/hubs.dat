@@ -1,0 +1,65 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+Hubs = {
+   Atlanta,
+   Chicago,
+   Dallas,
+   Denver,
+   Newark,
+   Pasadena,
+   Portland
+};
+
+Links = {
+   <   Atlanta,   Chicago   >,
+   <   Atlanta,   Dallas   >,
+   <   Atlanta,   Denver   >,
+   <   Atlanta,   Newark   >,
+   <   Atlanta,   Pasadena   >,
+   <   Atlanta,   Portland   >,
+   <   Chicago,   Atlanta   >,
+   <   Chicago,   Dallas   >,
+   <   Chicago,   Denver   >,
+   <   Chicago,   Newark   >,
+   <   Chicago,   Pasadena   >,
+   <   Chicago,   Portland   >,
+   <   Dallas,   Atlanta   >,
+   <   Dallas,   Chicago   >,
+   <   Dallas,   Denver   >,
+   <   Dallas,   Newark   >,
+   <   Dallas,   Pasadena   >,
+   <   Dallas,   Portland   >,
+   <   Denver,   Atlanta   >,
+   <   Denver,   Chicago   >,
+   <   Denver,   Dallas   >,
+   <   Denver,   Newark   >,
+   <   Denver,   Pasadena   >,
+   <   Denver,   Portland   >,
+   <   Newark,   Atlanta   >,
+   <   Newark,   Chicago   >,
+   <   Newark,   Dallas   >,
+   <   Newark,   Denver   >,
+   <   Newark,   Pasadena   >,
+   <   Newark,   Portland   >,
+   <   Pasadena,   Atlanta   >,
+   <   Pasadena,   Chicago   >,
+   <   Pasadena,   Dallas   >,
+   <   Pasadena,   Denver   >,
+   <   Pasadena,   Newark   >,
+   <   Pasadena,   Portland   >,
+   <   Portland,   Atlanta   >,
+   <   Portland,   Chicago   >,
+   <   Portland,   Dallas   >,
+   <   Portland,   Denver   >,
+   <   Portland,   Newark   >,
+   <   Portland,   Pasadena   >
+};

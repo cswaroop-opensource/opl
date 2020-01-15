@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>A transportation model, Mixed Integer Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Basic Configuration">
+			<ref type="data" name="transp1.dat">
+			</ref>
+			<ref type="model" name="transp1.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Sparsity">
+			<ref type="data" name="transp2.dat">
+			</ref>
+			<ref type="model" name="transp2.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Better sparsity">
+			<ref type="data" name="transp3.dat">
+			</ref>
+			<ref type="model" name="transp3.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Even better sparsity">
+			<ref type="data" name="transp4.dat">
+			</ref>
+			<ref type="model" name="transp4.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

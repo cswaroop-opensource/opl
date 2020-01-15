@@ -1,0 +1,21 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+anInt = 3;
+anIntArray =  [1 2 3];
+anArrayIndexedByFloat =  #[2.0: 1, 2.5: 2, 1.0: 3, 1.5: 4]#;
+anArrayIndexedByString =  #[idx1: 1, idx2: 2]#;
+aTuple =  <1 2.3 "not named tuple">;
+aNamedTuple =  #<f: 3.45, s: "named tuple", i: 99>#;
+aTupleSet =  {<1 2.5 "a"> <3 4.1 "b">};
+aTupleArray =  [<0 0 ""> <3 4.1 "b"> <1 2.5 "a">];
+anArrayIndexedByTuple =  #[<3 4.1 "b">: 1]#;
+a2DIntArray = [[11,12,13], [21,22,23]];

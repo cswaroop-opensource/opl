@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Stochastic Job-shop scheduling problem, Constraint Programming</description>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref type="model" name="sched_stochastic_jobshop.mod">
+			</ref>
+			<ref type="data" name="sched_stochastic_jobshop.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Scheduling the loading of a ship, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Configuration1">
+			<ref type="model" name="sched_shipload.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

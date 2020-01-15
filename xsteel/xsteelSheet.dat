@@ -1,0 +1,31 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+prepare {
+  writeln("* Note: This OPL data file is not compliant with cloud execution");
+}
+
+SheetConnection sheet("xsteel.xls");
+
+Products from SheetRead(sheet,"data!A2:A3");
+TimePeriods from SheetRead(sheet,"data!A17:A20");
+
+Rate from SheetRead(sheet,"data!B2:B3");
+Inv0 from SheetRead(sheet,"data!C2:C3");
+Avail from SheetRead(sheet,"data!B17:B20");
+Market from SheetRead(sheet,"data!B11:E12");
+Prodcost from SheetRead(sheet,"data!D2:D3");
+Invcost from SheetRead(sheet,"data!E2:E3");
+Revenue from SheetRead(sheet,"data!B7:E8");
+
+Make to SheetWrite(sheet,"RESULT!A2:D3");
+Inv to SheetWrite(sheet,"RESULT!A5:E6");
+Sell to SheetWrite(sheet,"RESULT!A8:D9");

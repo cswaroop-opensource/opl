@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>A simple gas production model, MILP</description>
+	<configs>
+		<config category="opl" default="true" name="Default Configuration">
+			<ref type="data" name="gas.dat">
+			</ref>
+			<ref type="model" name="gas.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="No external data">
+			<ref type="model" name="gas1.mod">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Indices in arrays">
+			<ref type="model" name="gas.mod">
+			</ref>
+			<ref type="data" name="gasn.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

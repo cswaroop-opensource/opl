@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Lagrangian relaxation for a location-transportation problem, Mixed Integer Programming</description>
+	<configs>
+		<config category="opl" default="true" name="Main Script">
+			<ref type="model" name="LagrangianRelaxation.mod">
+			</ref>
+			<ref type="data" name="LagrangianRelaxation.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Relax">
+			<ref type="model" name="relax.mod">
+			</ref>
+			<ref type="data" name="LagrangianRelaxation.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="LowerBound">
+			<ref type="model" name="LowerBound.mod">
+			</ref>
+			<ref type="data" name="LagrangianRelaxation.dat">
+			</ref>
+			<ref type="data" name="mult.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="Upper Bound">
+			<ref type="model" name="UpperBound.mod">
+			</ref>
+			<ref type="data" name="LagrangianRelaxation.dat">
+			</ref>
+			<ref type="data" name="SBuild.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

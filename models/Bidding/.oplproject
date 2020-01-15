@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>Bid Selection, Integer Programming</description>  
+  <configs>
+    <config name="Default" default="true" category="opl">
+      <ref name="bidding.dat" type="data"/>
+      <ref name="bidding.mod" type="model"/>
+    </config>
+  </configs>
+</project>

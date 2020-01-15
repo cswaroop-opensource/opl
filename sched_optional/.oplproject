@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>A house building model with worker skills, Constraint Programming</description>
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="sched_optional.dat" type="data"/>
+      <ref name="sched_optional.mod" type="model"/>
+      <ref name="sched_optional.ops" type="setting"/>
+    </config>
+  </configs>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project>
+	<version>1.0</version>
+	<description>Multi-Machine Assignment Problem, Constraint Programming</description>
+	<configs>
+		<config category="opl" default="true" name="sched_mmasp single1.1">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single1.1.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single1.2">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single1.2.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single2.1">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single2.1.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single2.2">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single2.2.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single3.1">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single3.1.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single3.2">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single3.2.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single4.1">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single4.1.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single4.2">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single4.2.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single5.1">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single5.1.dat">
+			</ref>
+		</config>
+		<config category="opl" default="false" name="sched_mmasp single5.2">
+			<ref type="model" name="sched_mmasp.mod">
+			</ref>
+			<ref type="data" name="single5.2.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Infeasible Resource-Constrained Project Scheduling problem, Constraint Programming</description>
+	<configs>
+		<config default="false" name="Infeasible instance" category="opl">
+			<ref type="model" name="sched_conflict.mod">
+			</ref>
+			<ref type="data" name="sched_conflict.dat">
+			</ref>
+		</config>
+		<config default="true" name="Infeasible instance (scripting)" category="opl">
+			<ref type="model" name="sched_conflict_scripting.mod">
+			</ref>
+			<ref type="data" name="sched_conflict.dat">
+			</ref>
+		</config>
+		<config default="false" name="Instance with fixed data" category="opl">
+			<ref type="model" name="sched_conflict.mod">
+			</ref>
+			<ref type="data" name="sched_conflict_resolved.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,30 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+ComputerTypes = { MultimediaBusiness, MultimediaHome, BasicHome };
+ComponentTypes = { CPU150, CPU250, Modem288, Modem56K, SoundCard, VideoCard, CDRW };
+
+NbPeriods = 3;
+MaxBuildPerPeriod = [50 10 20];
+
+MinDemand = [[5,6,7],
+         [4,5,6],
+         [3,4,5]];
+
+MaxDemand = [[15,16,17],
+         [14,15,16],
+           [13,14,15]];
+
+Computers = [<{CPU250, Modem56K,SoundCard,VideoCard,CDRW},8000,5>,
+                     <{CPU250,Modem56K,SoundCard,VideoCard},4000,5>,
+                     <{CPU150,Modem288,VideoCard},2000,5>];
+                     
+TotalBuild = [48 20 12];

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>A production planning model with data loaded from a spreadsheet</description>  
+  <configs>
+    <config name="Basic Configuration" default="true" category="opl">
+      <ref name="xsteel.mod" type="model"/>
+      <ref name="xsteelSheet.dat" type="data"/>
+    </config>
+  </configs>
+</project>

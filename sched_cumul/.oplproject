@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <version>1.0</version>
+  <description>A model that use cumulative functions in the house building problem, Constraint Programming</description>
+  <configs>
+    <config name="Configuration1" default="true" category="opl">
+      <ref name="sched_cumul.dat" type="data"/>
+      <ref name="sched_cumul.mod" type="model"/>
+    </config>
+  </configs>
+</project>

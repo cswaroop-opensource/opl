@@ -1,0 +1,50 @@
+// --------------------------------------------------------------------------
+// Licensed Materials - Property of IBM
+//
+// 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+// Copyright IBM Corporation 1998, 2013. All Rights Reserved.
+//
+// Note to U.S. Government Users Restricted Rights:
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// --------------------------------------------------------------------------
+
+
+
+
+BreakDuration = 1;
+DayDuration = 6;
+
+
+MorningDiscipline = { "Sport" };
+
+// those activities cannot be contiguous
+NeedBreak =  { 
+   <"Maths","Physics">,
+   <"Biology","Physics">,
+   <"Economy","Biology">,
+   <"Geography","Economy">,
+   <"History", "Geography"> 
+};
+
+// teacher x discipline 
+TeacherDisciplineSet = { 
+   <"Jean-Francois", "Maths">,
+   <"Pierre", "French">,
+   <"Odile", "Economy">,
+   <"Paul", "Physics">,
+   <"Veronique", "Biology">,
+   <"Patrick", "Sport">,
+   <"Jerome", "History">,
+   <"Marie-Laure", "Geography">,
+   <"Marie-Laure", "History">,
+};
+                       
+// rooms outside of this list support 
+// all disciplines but those specified here.
+DedicatedRoomSet = { <"Stadium", "Sport">,
+                     <"Lab", "Biology">
+                   };
+                   
+// all the rooms
+Room = {"R1", "R2", "R3", "R4", "R5", "R6", "Stadium", "Lab" };
